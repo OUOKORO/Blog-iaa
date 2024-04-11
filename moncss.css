@@ -46,6 +46,8 @@
 #kc{ background-color: gainsboro;
      color: black;
      text-align: center;
+     display: grid;
+     grid-template-columns: 25% 45% 30%;
    }
 
 #cc{ background-color: gainsboro;
@@ -111,16 +113,30 @@
   background-color: #11114e;
   height: 300px;
   border-radius: 10%;
+  text-align: top;
 }
 
 #entete {
-  background-color: #11114e;
-  color: white; 
+  color: burlywood; 
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  height: 50px;
+  height: 80px;
+  text-align: center;
+  height: 300px;
+  width:100%;
+  background-image: url(img/industries-agroalimentaires-700x400.png);
 }
 
+#entete2 {
+  background-color: #354A21;
+  color: whitesmoke; 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 90px;
+  width: 100%;
+  position:fixed;
+  text-align: center;
+}
 #lestopics { 
   background-color: #f8f8ff;
   display: grid;
