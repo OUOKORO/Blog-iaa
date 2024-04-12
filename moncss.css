@@ -118,7 +118,8 @@
   height: 300px;
   width:100%;
   border-radius: 10%;
-  text-align: top;
+  text-align: center;
+  margin-top: 10px;
 }
 
 #entete {
@@ -141,6 +142,7 @@
   width: 100%;
   position:fixed;
   text-align: center;
+  margin-top: 10px;
 }
 #lestopics { 
   background-color: #f8f8ff;
@@ -165,7 +167,7 @@
   font-family: Lucida Handwriting;
 }
 
-grid-topics {
+#grid-topics {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   width:100%;
@@ -183,3 +185,7 @@ grid-topics {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+#eng {
+  color:white;
+}
